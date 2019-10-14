@@ -1,0 +1,110 @@
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 794px;
+    padding: 130px 0 50px;
+    .container-wrapper {
+        position: relative;
+        width: 100%;
+        height: 794px;
+        background: url(../../assets/login_bg.png) no-repeat center center;
+        background-size: 100% 100%;
+        overflow: hidden;
+        .title {
+            margin: 50px auto 40px;
+            text-align: center;
+            color: #1c78ff;
+            font-size: 36px; 
+        }
+        .wrappper-input {
+            margin: 0 auto 36px;
+            width: 474px;
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+            &.reg-login-submit {
+                margin-bottom: 16px;
+            }
+            .reg-login-code-input {
+                border-radius: 8px;
+                flex: 1;
+            }
+            .get-code {
+                flex: none;
+                width: 120px;
+                height: 38px;
+                line-height: 38px;
+                text-align: center;
+                margin-left: 10px;
+                color: #1c78ff;
+                border: 1px solid #e5e5e5;
+                border-radius: 8px;
+                background-repeat: no-repeat; 
+                background-position: center center;
+                background-size: 100% 100%;
+                cursor: pointer;
+                &.timer-code {
+                    color: #666;
+                }
+
+            }
+            .reg-login-submit-btn {
+                flex: 1;
+                outline: none;
+                border: none;
+                font-size: 16px;
+                background-color: #1985ff;
+                border-radius: 4px;
+                color: #fff;
+            }
+            .tips-left {
+                cursor: pointer;
+                color: #666;
+                &.forget-pwd {
+                    font-size: 14px;
+                }
+                .tips-left-checkbox {
+                    color: #1084ff !important;
+                    font-size: 18px;
+                }
+                .tips-left-text {
+                    font-size: 14px;
+                    &:hover {
+                        color: #1985ff;
+                    }
+                }
+            }
+            .tips-right {
+                font-size: 14px;
+                color: #666;
+                cursor: pointer;
+                &:hover {
+                    color: #1985ff;
+                }
+            }
+        }
+    }
+}
+.icon-info {
+    position: absolute;
+    top: 12px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.icon-phone {
+    background-image: url(../../assets/phone.png);
+}
+
+.icon-code {
+    background-image: url(../../assets/code.png);
+}
+
+.icon-pwd {
+    background-image: url(../../assets/pwd.png);
+}

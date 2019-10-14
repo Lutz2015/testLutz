@@ -1,0 +1,152 @@
+
+.page-container {
+    position: relative;
+    .title-image {
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .course-title {
+        width: 277px;
+        height: 123px;
+        margin: 30px auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .course_user {
+        .system-title {
+            background-image: url(./images/course_system.png);
+        }
+        .plan-title  {
+            background-image: url(./images/course_plan.png);
+        }
+        .intro-title  {
+            width: 341px;
+            background-image: url(./images/course_intro.png);
+        }
+        .user-image {
+            margin: 50px auto 30px;
+            width: 1200px;
+            height: 1102px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            &.system-image {
+                background-image: url(./images/course_info.png);
+            }
+            &.plan-image {
+                margin-top: 80px; 
+                height: 563px;
+                background-image: url(./images/course_detail.png);
+            }
+        }
+        .intro-info {
+            position: relative;
+            margin: 50px auto 30px;
+            width: 1200px;
+            // display: flex;
+            overflow: hidden;
+            .intro-info-image {
+                position: relative;
+                width: 870px;
+                height: 780px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                &.left-image {
+                    float: left;
+                    background-image: url(./images/intro_left.png);
+                }
+                &.right-image {
+                    float: right;
+                    background-image: url(./images/intro_right.png);
+                }
+                .intro-info-text {
+                    position: absolute;
+                    top: 300px;
+                    
+                    width: 400px;
+                    &.left-text {
+                        left: 740px;
+                    }
+                    &.right-text {
+                        right: 740px;
+                    }
+                    p {
+                        line-height: 1.5;
+                        color: #333;
+                        font-size: 28px;
+                    }
+                }
+                .video-info {
+                    position: absolute;
+                    top: 194px;
+                    padding: 60px 40px 70px;
+                    width: 590px;
+                    box-sizing: border-box;
+                    &.left-video {
+                        left: 74px;
+                    }
+                    &.right-video {
+                        right: 74px;
+                    }
+                    .video-title {
+                        font-size: 30px;
+                        color: #1356cb;
+                        margin-bottom: 20px;
+                    }
+                    .video-source {
+                        width: 484px;
+                        height: 382px;
+                    }
+                }
+            }
+        }
+    }
+
+    .course_teacher {
+        .scratch-title  {
+            width: 316x;
+            height: 135px;
+            background-image: url(./images/course_scratch.png);
+        }
+        .python-title  {
+            width: 316x;
+            height: 135px;
+            background-image: url(./images/course_python.png);
+        }
+        .course-list {
+            margin: 50px auto;
+            width: 1120px;
+            .content {
+                padding: 20px 40px 30px;
+                box-sizing: border-box;
+                background-image: url(./images/teacher_bg.png);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: 100% 100%;
+                .content-title {
+                    font-size: 28px;
+                    color: #1356cb;
+                }
+                .title {
+                    margin-top: 20px;
+                    font-size: 22px;
+                    color: #e6365a;
+                }
+                .logo {
+                    margin-top: 10px;
+                    width: 280px;
+                    height: 160px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                }
+            }
+            
+        }
+    }
+}
